@@ -1,0 +1,12 @@
+---
+version: '2'
+
+services:
+  object_server:
+    image: bazel/service/object_server:image
+    volumes:
+      - /dev:/dev
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - ./storage:/storage

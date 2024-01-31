@@ -1,0 +1,1 @@
+docker image rm -f bazel/service/object_server:image \

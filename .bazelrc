@@ -1,0 +1,4 @@
+build --cxxopt=-std=c++20 
+test --enable_runfiles --test_output=all
+coverage --test_timeout=120
+run --enable_runfiles
